@@ -1,0 +1,12 @@
+****** BQ ******
+create or replace view `projectid.datasetname.tablename` 
+as
+select * from `projectid.datasetname.tablename`
+where country ='China'
+
+
+update  `projectid.datasetname.tablename`
+set car_type='benz' where id=9
+
+
+create view `projectid.datasetname.tablename`  as select required columns from table; 
